@@ -30,6 +30,7 @@ dim(Subject)
 index<-grep("mean\\(\\)|std\\(\\)", features[,2]) 
 ## count of features
 length(index)
+## [1] 66
 ## getting only variables with mean/stdev
 X<-X[,index]
 ## checking dim of subset
